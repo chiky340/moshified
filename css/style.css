@@ -162,3 +162,27 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+/* buttons */
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 3rem 3rem;
+  border: 0;
+  border-radius: 40px;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+.btn--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+.btn--accent {
+  background: var(--color-accent);
+  color: #fff;
+}

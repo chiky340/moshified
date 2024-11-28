@@ -5,7 +5,11 @@
   --color-headings: #1b0760;
   --color-body: #918ca4;
 }
-
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
@@ -174,13 +178,14 @@ a {
   padding: 3rem 3rem;
   text-transform: uppercase;
   white-space: nowrap;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 .btn--primary {
   background: var(--color-primary);
   color: #fff;
 }
-
 .btn--primary:hover {
   background: #3a8ffd;
 }
@@ -199,4 +204,25 @@ a {
 }
 .btn--accent:hover {
   background: #ec3000;
+}
+
+.btn--block {
+  width: 100%;
+  display: inline-block;
+}
+
+.btn--outline {
+  background: #fff;
+  color: var(--color-headings);
+  border: 2px solid var(--color-headings);
+}
+.btn--outline:hover {
+  background: var(--color-headings);
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
 }

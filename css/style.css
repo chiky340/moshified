@@ -148,3 +148,7 @@ a {
   width: 40px;
   height: 40px;
 }
+
+.icon--primary {
+  fill: var(--color-primary);
+}

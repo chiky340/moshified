@@ -226,3 +226,13 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* input */
+
+.input {
+  padding: 1.5rem 3.6rem;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: 0;
+  color: var(--color-headings);
+}

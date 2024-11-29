@@ -230,9 +230,18 @@ a {
 /* input */
 
 .input {
-  padding: 1.5rem 3.6rem;
-  border: 1px solid #ccc;
   border-radius: 30px;
-  outline: 0;
+  border: 1px solid #ccc;
   color: var(--color-headings);
+  font-size: 3rem;
+  outline: 0;
+  padding: 1.5rem 3.6rem;
+}
+::placeholder {
+  color: #cbcdc7;
+}
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
 }
